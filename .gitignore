@@ -1,4 +1,5 @@
 /vendor
+/comp
 /var/etc/n2n-impl-web-dispatch
 /var/etc/n2n-impl-web-ui
 /var/etc/n2nutil-bootstrap
