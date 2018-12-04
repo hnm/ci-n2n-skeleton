@@ -1,0 +1,9 @@
+# TEAM
+
+	Hofmänner New Media  -- www.hnm.ch -- @hnm_ch
+
+# TECHNOLOGY
+
+	n2n, rocket
+	CSS3, HTML5
+	HTML5 Boilerplate, jQuery, Bootstrap
