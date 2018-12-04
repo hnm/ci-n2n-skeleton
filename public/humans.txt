@@ -4,6 +4,6 @@
 
 # TECHNOLOGY
 
-	n2n, rocket
+	n2n rocket (https://n2n.rocks/)
 	CSS3, HTML5
 	HTML5 Boilerplate, jQuery, Bootstrap
