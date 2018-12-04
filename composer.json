@@ -16,7 +16,7 @@
         "n2n/n2n-impl-web-ui": "7.2.x-dev",
         "n2n/rocket": "2.0.x-dev",
         "n2n/page": "1.5.x-dev",
-        "n2n/n2nutil-bootstrap": "4.0.x-dev",
+        "n2n/n2nutil-bootstrap": "4.1.x-dev",
         "hnm/ch-hnm-util": "7.2.x-dev",
         "hnm/ci": "2.0.x-dev",
         "hnm/bstmpl": "2.0.x-dev"
