@@ -21,7 +21,7 @@
         "hnm/bstmpl": "^2.0.0"
     },
     "require-dev": {
-        "n2n/hangar": "7.2.0"
+        "n2n/hangar": "^7.2.0"
     },
     "extra": []
 }
