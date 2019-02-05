@@ -21,7 +21,18 @@
         "hnm/bstmpl": "^2.0.0"
     },
     "require-dev": {
-        "n2n/hangar": "^7.2.0"
+        "n2n/hangar": "^7.2.0",
+		"n2n/n2n-test" : "^7.2.0",
+		"phpunit/phpunit" : "^7.5"
     },
-    "extra": []
+    "autoload" : {
+        "psr-4" : {
+            "custom\\" : "app/custom"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "custom\\" : "test/custom"
+        }
+    }
 }
