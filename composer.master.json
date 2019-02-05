@@ -21,7 +21,19 @@
         "hnm/bstmpl": "master-dev"
     },
     "require-dev": {
-        "n2n/hangar": "master-dev"
+        "n2n/hangar": "master-dev",
+		"n2n/n2n-test" : "master-dev",
+		"phpunit/phpunit" : "^7.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"expdb\\" : "app/custom"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"expdb\\" : "test/custom"
+		}
     },
     "extra": []
 }
