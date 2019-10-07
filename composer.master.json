@@ -19,7 +19,7 @@
         "hnm/ch-hnm-util": "master-dev",
         "hnm/ci": "master-dev",
         "hnm/bstmpl": "master-dev",
-	    "hnm/simplefile": "master-dev"
+	"hnm/simplefile": "master-dev"
     },
     "require-dev": {
         "n2n/hangar": "master-dev",
