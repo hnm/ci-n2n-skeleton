@@ -15,7 +15,7 @@
         "n2n/n2n-impl-web-ui": "^7.2.0",
         "n2n/rocket": "^2.0.0",
         "n2n/page": "^1.5.0",
-        "n2n/n2nutil-bootstrap": "^4.1.0",
+        "hnm/bootstrap": "~1.0.0",
         "hnm/ch-hnm-util": "^7.2.0",
         "hnm/ci": "^2.0.0",
         "hnm/bstmpl": "^2.0.0",
