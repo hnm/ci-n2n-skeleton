@@ -14,7 +14,7 @@
         ".vscode/**",
         "**/rocket/**",
         "**/font-awesome/**",
-         "**/n2nutil-bootstrap/**",
+         "**/bootstrap/**",
          "**/hangar/**"
     ],
     "liveSassCompile.settings.autoprefix": [
