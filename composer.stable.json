@@ -19,7 +19,8 @@
         "hnm/ch-hnm-util": "^7.2.0",
         "hnm/ci": "^2.0.0",
         "hnm/bstmpl": "^2.0.0",
-	"hnm/simplefile": "^1.3.0"
+	"hnm/simplefile": "^1.3.0",
+	"hnm/report" : "^3.0.0"
     },
     "require-dev": {
         "n2n/hangar": "^7.2.0",
