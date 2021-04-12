@@ -3,6 +3,8 @@
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
 	"liveSassCompile.settings.watchOnLaunch": true,
+	"liveSassCompile.settings.showOutputWindowOn": "Information",
+	"liveSassCompile.settings.forceBaseDirectory": "/src-php/public/assets/bstmpl/scss",
     "liveSassCompile.settings.formats":[
         {
             "format": "expanded",
