@@ -9,7 +9,7 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/public/assets/bstmpl/css"
+            "savePath": "src-php/public/assets/bstmpl/css"
         }
     ],
     "liveSassCompile.settings.excludeList": [
