@@ -36,5 +36,10 @@
         "psr-4" : {
             "custom\\" : "test/custom"
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "n2n/n2n-composer-module-installer": true
+        }
     }
 }
