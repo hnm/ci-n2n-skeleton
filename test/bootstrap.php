@@ -7,7 +7,7 @@ use n2n\core\TypeLoader;
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$pubPath = realpath(dirname(__FILE__));
+$pubPath = realpath(dirname(__FILE__) . '/../public');
 $appPath = realpath($pubPath . '/../app');
 $libPath = realpath($pubPath . '/../lib');
 $testPath = realpath($pubPath . '/../test');
