@@ -34,7 +34,9 @@
 ; controllers[] = "/{locale}/example > example\controller\ExampleController"
 ; controllers[] = "/foo > example\controller\FooController"
 
-; filters[] = "/secure/** > example\filter\ExampleFilter"
+; filters[] = "/secure/** > example\filter\ExampleFilter";
+
+; precache_filters[] = "/** > example\filter\ExamplePrecacheFilter"
 
 ; locales[] = "de_CH"
 ; locales[] = "fr"
