@@ -30,8 +30,9 @@ $testSqlFsPath = N2N::getVarStore()->requestFileFsPath('bak', null, null, 'backu
 $sql = IoUtils::getContents($testSqlFsPath);
 
 $sql = preg_replace('/^(INSERT|VALUES|\().*/m', '', $sql);
-$sql = preg_replace('/^ALTER TABLE .* ADD (INDEX|UNIQUE|FULLTEXT).*/m', '', $sql);
-$sql = preg_replace('/ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE [^;]+/', '', $sql);
+$sql = preg_replace('/^ALTER TABLE `([^`]+)` ADD UNIQUE INDEX `([^`]+)`/m', 'CREATE UNIQUE INDEX $1_$2 ON $1 ', $sql);
+$sql = preg_replace('/^ALTER TABLE `([^`]+)` ADD (INDEX|FULLTEXT).*/m', '', $sql);
+$sql = preg_replace('/ENGINE=InnoDB DEFAULT CHARSET=utf8[\S]* COLLATE [^;]+/', '', $sql);
 $sql = preg_replace('/\\,(\\s)*PRIMARY KEY.*/m', '', $sql);
 $sql = preg_replace('/ENUM\([^\)]+\)/', 'VARCHAR(255)', $sql);
 $sql = preg_replace('/INT (UNSIGNED )?NOT NULL AUTO_INCREMENT/', 'INTEGER PRIMARY KEY AUTOINCREMENT', $sql);
