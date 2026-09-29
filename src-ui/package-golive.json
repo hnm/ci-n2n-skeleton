@@ -1,0 +1,31 @@
+{
+  "name": "src-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js-dev": "webpack build  --watch --config webpack-dev.config.js",
+    "js-qual": "webpack build --mode=production --config webpack-qual.config.js",
+    "js-prod": "webpack build --mode=production --config webpack-prod.config.js",
+    "scss-comp": "sass --no-source-map --style=expanded --no-error-css --load-path=node_modules scss/:../src-php/public/assets/bstmpl/css/",
+    "scss-dev": "sass --watch --update --style=expanded --embed-sources --load-path=node_modules scss/:../src-php/public/assets/bstmpl/css/",
+    "scss-dev-min": "sass --no-source-map --style=compressed --no-error-css --load-path=node_modules scss/:../src-php/public/assets/bstmpl/css/",
+    "scss-qual": "sass --no-source-map --style=compressed --no-error-css --load-path=node_modules scss/:../build/qual/target/public/assets/bstmpl/css/",
+    "scss-prod": "sass --no-source-map --style=compressed --no-error-css --load-path=node_modules scss/:../build/prod/target/public/assets/bstmpl/css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.6",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3",
+    "gsap": "^3.12.5",
+    "jquery": "3.7.1"
+  }
+}
