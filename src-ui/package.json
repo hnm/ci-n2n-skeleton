@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "all-dev": "yarn js-dev & yarn scss-dev",
+    "all-dev": "yarn js-dev & yarn scss-dev & yarn img-dev",
     "js-dev": "webpack build  --watch --config webpack-dev.config.js",
     "js-qual": "webpack build --mode=production --config webpack-qual.config.js",
     "js-prod": "webpack build --mode=production --config webpack-prod.config.js",
